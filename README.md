@@ -16,6 +16,10 @@ This also shows how to use gradle for mason and how to easily produce a standalo
   
 Furthermore there is some scala classes to use the Properties and the Datacollector neatly from scala. As I use Scala for modelling this is more convenient. Actually Mason and Scala work nicely - you can find a Schelling example in Scala in the source.
 
+Documentation
+----
+* [Javadoc](http://romanseidl.github.io/mason-tools/javadoc/)
+* [Scaladoc](http://romanseidl.github.io/mason-tools/scaladoc/)
 
 License
 ----
