@@ -20,4 +20,5 @@ AFL 3.0 - http://www.opensource.org/licenses/afl-3.0.php
 
 &copy; roman seidl, 2014 - roman(aet!)granul at
 
-**Free Software, Hell Yeah!**
+
+
