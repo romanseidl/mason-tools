@@ -1,0 +1,46 @@
+group = 'at.granul'
+version = '1.0'
+
+apply plugin: 'scala'
+
+apply plugin: 'gradle-one-jar'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.rholder:gradle-one-jar:1.0.3'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile 'org.scala-lang:scala-library:2.10.3'
+    compile 'org.scala-lang:scala-reflect:2.10.3'
+
+    //Mason
+    compile files('lib/mason-19.jar', 'lib/portfolio.jar')
+    compile 'org.jfree:jfreechart:1.0.17'
+//    compile 'org.jfree:jcommon:1.0.21'
+    compile 'com.lowagie:itext:1.2.3'
+//   compile 'javax.media:jmf:2.1.1e'
+}
+
+task copyJar(type: Jar) {
+    from sourceSets.main.output
+    archiveName = "masontools.jar"
+    destinationDir = file("../scalaspring/lib")
+}
+
+task executableJar(type: OneJar) {
+    mainClass = "at.granul.mason.example.flockers.FlockersWithUI"
+}
