@@ -1,7 +1,7 @@
 Mason Tools
 =========
 
-This is a collection of tools i use in Mason.
+This is a collection of tools I use in Mason.
 
   - **Declared Properties:** A way to neatly set properties on parameter classes
   - **TitledSimpleInspector:** A better looking inspector allowing for titles and thus sections
@@ -10,7 +10,7 @@ This is a collection of tools i use in Mason.
   - **Layout**: An automaitc Layout to fill the screen with display, console and charts
   - **Flockers**: An example using the whole Suite
 
-Furthermore there is some scala classes to use the Properties and the Datacollector neatly from scala. As I use Scala for modelling this is more convenient. Actually Mason and Scala work nicely - maybe I'll produce an example here lateron.
+Furthermore there is some scala classes to use the Properties and the Datacollector neatly from scala. As I use Scala for modelling this is more convenient. Actually Mason and Scala work nicely - you can find a Schelling example in Scala in the source.
 
 
 License
