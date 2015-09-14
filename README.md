@@ -10,6 +10,10 @@ This is a collection of tools I use in Mason.
   - **Layout**: An automaitc Layout to fill the screen with display, console and charts
   - **Flockers**: An example using the whole Suite
 
+For an example you can start the standalone jar in the build directory.
+
+This also shows how to use gradle for mason and how to easily produce a standalone simulation jar with gradle and mason.
+  
 Furthermore there is some scala classes to use the Properties and the Datacollector neatly from scala. As I use Scala for modelling this is more convenient. Actually Mason and Scala work nicely - you can find a Schelling example in Scala in the source.
 
 
