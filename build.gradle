@@ -35,12 +35,6 @@ dependencies {
 //   compile 'javax.media:jmf:2.1.1e'
 }
 
-task copyJar(type: Jar) {
-    from sourceSets.main.output
-    archiveName = "masontools.jar"
-    destinationDir = file("../scalaspring/lib")
-}
-
 task executableJar(type: OneJar) {
     mainClass = "at.granul.mason.example.flockers.FlockersWithUI"
 }
